@@ -69,8 +69,8 @@ public class BufferChain<T> {
 	}
 	
 	/**
-	 * @param bytes The number of bytes to skip in the buffer.
-	 * @return True if the given number of bytes were able to be skipped, false
+	 * @param bytes The number of Ts to skip in the buffer.
+	 * @return True if the given number of Ts were able to be skipped, false
 	 * otherwise.
 	 */
 	public boolean skip(long Ts) {
@@ -113,7 +113,7 @@ public class BufferChain<T> {
 	
 	/**
 	 * @param index The index in the buffer to skip to.
-	 * @return True if the given number of bytes were able to be skipped, false
+	 * @return True if the given number of Ts were able to be skipped, false
 	 * otherwise.
 	 */
 	public boolean goTo(long index) {
