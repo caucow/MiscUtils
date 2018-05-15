@@ -142,7 +142,8 @@ public class BufferChain<T> {
 	public T getFirst() {
 		lock.lock();
 		try {
-			
+			T[] a = chain.get(0);
+			T v = a[0];
 			lock.unlock();
 			return v;
 		} catch (Exception e) {
