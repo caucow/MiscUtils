@@ -1,4 +1,4 @@
-package test;
+package com.caucraft.miscutils;
 
 import java.util.ArrayList;
 import java.util.List;
